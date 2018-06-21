@@ -4,3 +4,5 @@ def make_greeting(user_id):
 def print_greeting():
     print(make_greeting(0))
     print(make_greeting(1.1))
+    
+make_greeting((1,2,3))
